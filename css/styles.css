@@ -28,15 +28,16 @@ a:hover{
     color:#FFB742;
 }
 
-button{
+.button1{
     background-color: #FFB742;
     color: #212529;
     font-size: 18px;
     font-weight: 700;
-    padding: 10px 20px;
-    border-radius: 25px;
+    padding: 10px 30px;
+    border-radius: 50px;
     border-style: none;
-    margin: 20px;
+    justify-content: right;
+    
 }
 
 header{
@@ -141,7 +142,7 @@ h1{
 footer{
     background-color: #1C1C1C;
     font-family: 'Work sans',sans-serif;
-    height: 200px;
+    height: 180px;
     padding: 160px 60px;
     display: flex;
     justify-content: space-between;
@@ -154,19 +155,34 @@ footer{
     font-family: 'Poppins',sans-serif;
 }
 
-.cajapequeña{
-    background-color: #292B2E;
-    height: 20px;
-    width: 250px;
-    margin: 10px;
-    padding: 12px 20px;
+.button2{
+    background-color: #FFB742;
+    color: #212529;
+    font-size: 18px;
+    font-weight: 700;
+    padding: .5px;
+    margin: 0px;
     border-radius: 50px;
     border-style: none;
+   
+}
+
+.cajapequeña{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292B2E;
+    height: 40px;
+    width: 350px;
+    padding: 15px 0px 15px 15px;
+    margin: 1px;
+    border-radius: 50px;
+    border-style: none;
+
 }
 
 .div-footer{
     height: 200px;
-    background-color: #999a9a;
         
 }
 
@@ -185,23 +201,30 @@ footer{
 }
 
 #sent-email{
-    background-color: aqua;
     display: flex;
-    justify-content: left;
-    align-items: left;
-    padding-left: 0px;
-
+    margin-top: 15px;
 }
 
-.buttonsent{
-   
+.sec-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
+
+#imag-abou{
+    height: 500px;
+}
+
+
 .Iam{
+    display: flex;
+    justify-content: center;
     background-color: #292B2E;
     color:#FFB742;
     font-size: 20px;
     font-weight: 500;
-    width: 100px;
+    width: 300px;
     padding: 10px 20px;
     border-radius: 25px;
     border-style: none;
@@ -209,6 +232,25 @@ footer{
 
 #about{
     font-size: 48px;
+}
+
+#descripabout{
+    font-size: 18px;
+    padding-block: 18px;
+    width: 600px;
+}
+
+#sect-experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.caja-experience{
+    display: flex;
+    justify-items: space-between;
+    padding: 60px 300px;
 }
 
 .Experience{
@@ -242,13 +284,22 @@ h3{
     color: black;
     font-size: 20px;
     font-weight: 200px;
-    height: 550px;
-    width: 200px;
+    height: 350px;
+    width: 350px;
     margin: 20px;
-    padding: 50px;
+    padding: 15px;
     border-radius: 10px;
     border-style: none;
 }
+
+#section-info{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 50px;
+}
+    
 
 .Contact{
     background-color: #292B2E;
@@ -266,9 +317,10 @@ h3{
     color: #212529;
     font-size: 18px;
     font-weight: 700;
-    padding: .2px 3px;
-    border-radius: 25px;
+    padding: 5px 30px;
+    border-radius: 50px;
     border-style: none;
+    justify-content: right;
 }
 
 .info{
@@ -278,7 +330,7 @@ h3{
     height: 50px;
     padding: 10px;
     margin: 10px;
-    border-left: #FFB742;
+    border-bottom: 3px solid #999a9a;
 }
 
 
