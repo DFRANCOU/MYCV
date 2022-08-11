@@ -181,25 +181,6 @@ footer{
 
 }
 
-.div-footer{
-    height: 200px;
-        
-}
-
-#div-footer2{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    padding-left: 0px;
-}
-
-#div-footer3{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    padding-left: 0px;
-}
-
 #sent-email{
     display: flex;
     margin-top: 15px;
@@ -238,6 +219,66 @@ footer{
     font-size: 18px;
     padding-block: 18px;
     width: 600px;
+}
+
+/*hoja Experience*/
+
+.smile{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.cajagrande{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 200px;
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.button3{
+   background-color: #FFB742;
+    color: #212529;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 30px;
+    margin-top: -40px;
+    border-radius: 50px;
+    border-style: none;
+    justify-content: right; 
+}
+
+#contacSmile{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+    
+.divLogos{
+    display: flex;
+    justify-content: space-between ;
+}
+
+#logoUnaula{
+    height: 80px;
+    width: 80px;
+}
+
+#logoEdu{
+    height: 80px;
+    width: 80px;
+}
+
+#logoGober{
+    height: 80px;
+    width: 120px;
 }
 
 #sect-experience{
@@ -302,6 +343,8 @@ h3{
     
 
 .Contact{
+    display: flex;
+    justify-content: center;
     background-color: #292B2E;
     color:#FFB742;
     font-size: 20px;
@@ -312,7 +355,7 @@ h3{
     border-style: none;
 }
 
-.button3{
+.button4{
     background-color: #FFB742;
     color: #212529;
     font-size: 18px;
