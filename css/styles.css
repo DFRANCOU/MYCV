@@ -7,9 +7,13 @@ body{
 }
 
 header{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px; 
     font-size: 18px;
     font-style: normal;
     font-weight: bold;
+
 }
 
 li{
@@ -40,12 +44,6 @@ a:hover{
     
 }
 
-header{
-    display: flex;
-    justify-content:space-between;
-    padding: 20px; 
-}
-
 .nav{
     display: flex;
     justify-content:space-between; 
@@ -53,6 +51,8 @@ header{
     padding: 10px;
     margin: 12px;
 }
+
+/* section index*/
 
 .Inter{
     font-family: 'Inter',sans-serif;
@@ -150,9 +150,20 @@ footer{
     
 }
 
+.h4{
+    color: white;
+}
+
 #nomfooter{
     color: #FFB742;
     font-family: 'Poppins',sans-serif;
+}
+
+.divfooter{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
 }
 
 .button2{
@@ -161,7 +172,7 @@ footer{
     font-size: 18px;
     font-weight: 700;
     padding: .5px;
-    margin: 0px;
+    margin-left: -70px;
     border-radius: 50px;
     border-style: none;
    
@@ -178,13 +189,14 @@ footer{
     margin: 1px;
     border-radius: 50px;
     border-style: none;
-
 }
 
 #sent-email{
     display: flex;
     margin-top: 15px;
 }
+
+/*section about*/
 
 .sec-about{
     display: flex;
@@ -197,14 +209,13 @@ footer{
     height: 500px;
 }
 
-
 .Iam{
     display: flex;
     justify-content: center;
     background-color: #292B2E;
     color:#FFB742;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 500px;
     width: 300px;
     padding: 10px 20px;
     border-radius: 25px;
@@ -221,65 +232,7 @@ footer{
     width: 600px;
 }
 
-/*hoja Experience*/
-
-.smile{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-}
-
-.cajagrande{
-    background-color: white;
-    color: black;
-    font-size: 20px;
-    font-weight: 200px;
-    height: 350px;
-    width: 350px;
-    margin: 20px;
-    padding: 15px;
-    border-radius: 10px;
-    border-style: none;
-}
-
-.button3{
-   background-color: #FFB742;
-    color: #212529;
-    font-size: 18px;
-    font-weight: 700;
-    padding: 10px 30px;
-    margin-top: -40px;
-    border-radius: 50px;
-    border-style: none;
-    justify-content: right; 
-}
-
-#contacSmile{
-    color: white;
-    font-size: 30px;
-    font-weight: 900;
-}
-    
-.divLogos{
-    display: flex;
-    justify-content: space-between ;
-}
-
-#logoUnaula{
-    height: 80px;
-    width: 80px;
-}
-
-#logoEdu{
-    height: 80px;
-    width: 80px;
-}
-
-#logoGober{
-    height: 80px;
-    width: 120px;
-}
+/*section Experience*/
 
 #sect-experience{
     display: flex;
@@ -315,7 +268,7 @@ h3{
     font-weight: 700;
 }
 
-.h4{
+h4{
     color: black;
     font-size: 16px;
     font-weight: 400;
@@ -341,6 +294,66 @@ h3{
     padding: 50px;
 }
     
+.divLogos{
+    display: flex;
+    justify-content: space-between ;
+}
+
+#logoUnaula{
+    height: 80px;
+    width: 80px;
+}
+
+#logoEdu{
+    height: 80px;
+    width: 80px;
+}
+
+#logoGober{
+    height: 80px;
+    width: 120px;
+}
+
+/*section contact*/
+
+.smile{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.cajagrande{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 200px;
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.button3{
+   background-color: #FFB742;
+    color: #212529;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 30px;
+    margin-top: -40px;
+    border-radius: 50px;
+    border-style: none;
+    justify-content: right; 
+}
+
+#contacSmile{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
 
 .Contact{
     display: flex;
