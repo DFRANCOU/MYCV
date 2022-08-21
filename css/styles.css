@@ -41,7 +41,12 @@ a:hover{
     border-radius: 50px;
     border-style: none;
     justify-content: right;
+    cursor: pointer;
     
+}
+
+.button1:active{
+    transform: scale(0.98);
 }
 
 .nav{
@@ -122,13 +127,14 @@ h1{
     color:#999a9a;
     font-size: 20px;
     font-weight: 600px;
-  
 }
+
 .contenido-resum{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 
 }
 
@@ -142,12 +148,13 @@ h1{
 footer{
     background-color: #1C1C1C;
     font-family: 'Work sans',sans-serif;
+    color: white;
     height: 180px;
     padding: 160px 60px;
     display: flex;
     justify-content: space-between;
-    align-items: space-between;
-    
+    align-content: start;
+    padding: 50px 30px;
 }
 
 .h4{
@@ -274,12 +281,12 @@ h4{
     font-size: 16px;
     font-weight: 400;
 }
-.cajagrande{
+.cajaGrande{
     background-color: white;
     color: black;
     font-size: 20px;
     font-weight: 200px;
-    height: 350px;
+    height: 400px;
     width: 350px;
     margin: 20px;
     padding: 15px;
@@ -287,7 +294,7 @@ h4{
     border-style: none;
 }
 
-#section-info{
+.sectionContact{
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -325,12 +332,17 @@ h4{
 }
 
 
-.cajagrande{
+.cajagrandeSmile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
     background-color: white;
     color: black;
+    flex-wrap: wrap;
     font-size: 20px;
     font-weight: 200px;
-    height: 350px;
+    height: 400px;
     width: 350px;
     margin: 20px;
     padding: 15px;
@@ -338,7 +350,7 @@ h4{
     border-style: none;
 }
 
-.button3{
+.buttoon3{
    background-color: #FFB742;
     color: #212529;
     font-size: 18px;
@@ -348,13 +360,22 @@ h4{
     border-radius: 50px;
     border-style: none;
     justify-content: right; 
+    cursor: pointer;
 }
 
-#contacSmile{
+.buttoon3:active{
+    transform: scale(0.98);
+}
+
+.contacSmile{
     color: white;
     font-size: 30px;
     font-weight: 900;
+    text-align: justify;
+    margin: 15px;
 }
+
+/* contact info */
 
 .Contact{
     display: flex;
@@ -390,7 +411,37 @@ h4{
     border-bottom: 3px solid #999a9a;
 }
 
+/* light mode */
 
+.change-mode-body{
+    background-color: #E5E5E5;
+    color: black;
+}
 
+.change-mode-a{
+    color: black;
+}
+
+.change-mode-cajaGrande{
+    background-color: #212529;
+    color: white;
+}
+
+.change-mode-h3{
+    color: white;
+}
+
+.change-mode-h4{
+    color: white;
+}
+
+.change-mode-contacSmile{
+    color: black;
+}
+
+.change-mode-cajagrandeSmile{
+    background-color: #212529;
+    color:white;
+}
 
 
