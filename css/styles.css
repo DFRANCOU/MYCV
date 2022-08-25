@@ -22,15 +22,22 @@ li{
 
 a{
     text-decoration: none;
+    color: white; 
 }
 
-a:visited{
-    color: white;
+.a-header{
+    text-decoration: none;
+    color: white; 
 }
+
+/* a:visited{
+    color: white;
+} */
 
 a:hover{
     color:#FFB742;
 }
+
 
 .button1{
     background-color: #FFB742;
@@ -51,6 +58,7 @@ a:hover{
 
 .nav{
     display: flex;
+    color: white;
     justify-content:space-between; 
     width: 350px;
     padding: 10px;
@@ -287,11 +295,13 @@ h4{
     font-size: 20px;
     font-weight: 200px;
     height: 400px;
-    width: 350px;
+    width: 380px;
     margin: 20px;
     padding: 15px;
     border-radius: 10px;
     border-style: none;
+    text-align: justify;
+    align-items: center;
 }
 
 .sectionContact{
@@ -302,14 +312,44 @@ h4{
     padding: 50px;
 }
     
+.a-wwcm{
+    text-decoration-line: underline;
+    color: #FFB742; 
+    font-size: 18px;
+}
+
+.a-here{
+    color: black;
+    text-decoration: underline;
+}
+
+.a-wwcm2{
+    text-decoration-line: underline;
+    color: #FFB742; 
+    font-size: 18px;
+}
+.wwcm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divWwcm{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: auto;
+}
+
 .divLogos{
     display: flex;
     justify-content: space-between ;
 }
 
-#logoUnaula{
-    height: 80px;
-    width: 80px;
+#logowwcm{
+    height: 70px;
+    width: 100px;
+    margin-bottom: -20px;
 }
 
 #logoEdu{
@@ -418,7 +458,7 @@ h4{
     color: black;
 }
 
-.change-mode-a{
+.change-mode-a-header{
     color: black;
 }
 
@@ -444,4 +484,7 @@ h4{
     color:white;
 }
 
+.change-mode-a-here{
+    color: white;
+}
 
