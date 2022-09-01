@@ -1,0 +1,39 @@
+
+.change-mode-body{
+    background-color: #E5E5E5;
+    color: black;
+}
+
+.change-mode-a-header{
+    color: black;
+}
+
+.change-mode-cajaGrande{
+    background-color: #212529;
+    color: white;
+}
+
+.change-mode-h3{
+    color: white;
+}
+
+.change-mode-h4{
+    color: white;
+}
+
+.change-mode-contactSmile{
+    color: black;
+}
+
+.change-mode-cajagrandeSmile{
+    background-color: #212529;
+    color:white;
+}
+
+.change-mode-a-here:link{
+    color: black;
+}
+
+.change-mode-lwwcm{
+    filter: invert(100%);
+}

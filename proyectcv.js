@@ -1,32 +1,49 @@
-const button1 = document.querySelector(".button1");
 
-button1.addEventListener("click", lightMode);
 
-function lightMode(){
+    let x = document.querySelector(".contactSmile")
 
-    document.querySelector("body").classList.toggle("change-mode-body");
+    console.log("x");
 
-    document.querySelectorAll(".a-header").forEach(element => { 
-    element.classList.toggle("change-mode-a-header")
-    });
+// const button1 = document.querySelector(".button1");
 
-    document.querySelectorAll(".cajaGrande").forEach(element => {
-    element.classList.toggle("change-mode-cajaGrande")
-    });
+// button1.addEventListener("click", lightMode);
 
-    document.querySelectorAll("div h3").forEach(element => {
-    element.classList.toggle("change-mode-h3")
-    });
+// function lightMode(){
 
-    document.querySelectorAll("h4").forEach(element => {
-    element.classList.toggle("change-mode-h4") 
-    });
+//     document.querySelector("body").classList.toggle("change-mode-body");
 
-    document.querySelector(".contacSmile").classList.toggle("change-mode-contacSmile");
+//     document.querySelectorAll(".a-header").forEach(element => { 
+//     element.classList.toggle("change-mode-a-header")
+//     });
 
-    document.querySelector(".cajagrandeSmile").classList.toggle("change-mode-cajagrandeSmile");
+//     document.querySelectorAll(".cajaGrande").forEach(element => {
+//     element.classList.toggle("change-mode-cajaGrande")
+//     });
+
+//     document.querySelectorAll("div h3").forEach(element => {
+//     element.classList.toggle("change-mode-h3")
+//     });
+
+//     document.querySelectorAll("h4").forEach(element => {
+//     element.classList.toggle("change-mode-h4") 
+//     });
+
+   
+
+//     document.querySelector(".contactSmile").classList.toggle("change-mode-contactSmile");
+    
+
+    
+
+//     document.querySelector(".cajagrandeSmile").classList.toggle("change-mode-cajagrandeSmile");
+
+//     // document,getElementsByClassName("logowwcm").classList.toggle("change-mode-lwwcm");
+
+//     // document.querySelector(".a-here").classList.toggle("change-mode-a-here:link");
+
+//     // document.querySelector(".a-letsGo").classList.toggle(".change-mode-a-letsGo");
 
     
   
 
-}
+// }
