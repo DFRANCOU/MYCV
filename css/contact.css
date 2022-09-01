@@ -6,7 +6,7 @@
 }
 
 
-.cajagrandeSmile{
+.jokeBox{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,11 +41,10 @@
     transform: scale(0.98);
 }
 
-.contactSmile{
+.startJoke{
     color: white;
     font-size: 30px;
     font-weight: 900;
-    text-align: justify;
     margin: 15px;
 }
 
