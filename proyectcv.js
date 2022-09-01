@@ -26,7 +26,7 @@ function lightMode(){
 
     document.querySelector(".cajagrandeSmile").classList.toggle("change-mode-cajagrandeSmile");
 
-    document.querySelector(".a-here").classList.toggle(".change-mode-a-here");
+    
   
 
 }

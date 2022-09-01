@@ -334,6 +334,11 @@ h4{
     align-items: center;
 }
 
+.a-letsGo{
+    color: black;
+    text-decoration: underline;
+}
+
 .divWwcm{
     display: flex;
     flex-direction: column;
