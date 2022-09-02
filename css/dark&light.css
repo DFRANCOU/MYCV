@@ -21,11 +21,11 @@
     color: white;
 }
 
-.change-mode-contactSmile{
+.change-mode-startJoke{
     color: black;
 }
 
-.change-mode-cajagrandeSmile{
+.change-mode-jokeBox{
     background-color: #212529;
     color:white;
 }
@@ -40,5 +40,5 @@
 
 
 .change-mode-lwwcm{
-    filter: invert(100%);
+    filter: grayscale(10%);
 }
