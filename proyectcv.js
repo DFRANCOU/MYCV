@@ -28,20 +28,24 @@ function lightMode(){
     element.classList.toggle("change-mode-h4") 
     });
 
-    let contactSmile = document.querySelector(".contactSmile")
+    let contactSmile = document.querySelector(".startJoke")
      /* valida la información */
     if (contactSmile){
-        contactSmile.classList.toggle("change-mode-contactSmile");
+        contactSmile.classList.toggle("change-mode-startJoke");
     }
     
-    let cajaGrande = document.querySelector(".cajagrandeSmile")
+    let cajaGrande = document.querySelector(".jokeBox")
 
     if (cajaGrande){
-        cajaGrande.classList.toggle("change-mode-cajagrandeSmile");
+        cajaGrande.classList.toggle("change-mode-jokeBox");
     }
-
-    // document,getElementsByClassName("logowwcm").classList.toggle("change-mode-lwwcm");
-
+    
+    let logowwcm = document.querySelector(".logowwcm")
+    
+    if (logowwcm){
+      logowwcm.classList.toggle("change-mode-lwwcm");
+    }
+    
     let aHere = document.querySelector(".a-here")
 
     if (aHere){
@@ -53,9 +57,6 @@ function lightMode(){
     if (aLetsgo){
       aLetsgo.classList.toggle("change-mode-a-letsGo");
     }
- 
-
-    
-  
 
 }
+

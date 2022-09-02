@@ -40,5 +40,9 @@
 
 
 .change-mode-lwwcm{
-    filter: grayscale(10%);
+    height: 70px;
+    width: 100px;
+    margin-bottom: -20px;
+    content: url("./img/lwwcm_white.png");
+    overflow: hidden;
 }

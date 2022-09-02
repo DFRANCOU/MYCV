@@ -213,3 +213,37 @@ footer{
     margin-top: 15px;
 }
 
+@media only screen and (max-width: 640px){
+    header{
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        padding: 20px; 
+        font-size: 15px;
+    }
+    .section-info-basica{
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .section-resumen{
+        width: 80%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+
+    } 
+
+    footer{
+        background-color: #1C1C1C;
+        width: 100%;
+        flex-direction: column;
+        align-content: start;
+
+    }
+}
