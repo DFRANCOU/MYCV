@@ -30,9 +30,14 @@
     color:white;
 }
 
-.change-mode-a-here:link{
-    color: black;
+.a-here.change-mode-a-here{
+    color: white;
 }
+
+.a-letsGo.change-mode-a-letsGo{
+    color: white;
+}
+
 
 .change-mode-lwwcm{
     filter: invert(100%);
