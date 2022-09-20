@@ -40,6 +40,12 @@ function lightMode(){
         cajaGrande.classList.toggle("change-mode-jokeBox");
     }
     
+    let infoTex = document.querySelector(".infoTex")
+
+    if (infoTex){
+       infoTex.classList.toggle("change-mode-text")
+    }
+
     let logowwcm = document.querySelector(".logowwcm")
     
     if (logowwcm){

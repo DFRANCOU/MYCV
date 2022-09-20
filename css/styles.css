@@ -186,10 +186,10 @@ footer{
 .button2{
     background-color: #FFB742;
     color: #212529;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 1px;
     padding: .5px;
-    margin-left: -70px;
+    margin-left: -64px;
+    margin-top: -2px;
     border-radius: 50px;
     border-style: none;
    
@@ -200,12 +200,14 @@ footer{
     justify-content: space-between;
     align-items: center;
     background-color: #292B2E;
-    height: 40px;
+    height: 30px;
     width: 350px;
     padding: 15px 0px 15px 15px;
     margin: 1px;
     border-radius: 50px;
     border-style: none;
+    color: white;
+    font-size: 20px;
 }
 
 #sent-email{
