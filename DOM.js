@@ -46,11 +46,11 @@ function lightMode(){
        infoTex.classList.toggle("change-mode-text")
     }
 
-    let logowwcm = document.querySelector(".logowwcm")
+    // let logowwcm = document.querySelector(".logowwcm")
     
-    if (logowwcm){
-      logowwcm.classList.toggle("change-mode-lwwcm");
-    }
+    // if (logowwcm){
+    //   logowwcm.classList.toggle("change-mode-lwwcm");
+    // }
     
     let aHere = document.querySelector(".a-here")
 
